@@ -1,0 +1,30 @@
+1. What is Boolean? Write down 3 different expression that results a Boolean type?
+- A Boolean value is either true or false.
+- In Python, the two Boolean values are True and False.
+
+   Write down 3 different expression that results a Boolean type:
+- 9 == (3*3) : True
+- 9 != (3*3) : False
+- n = "Mot"
+  n + " Hai" == "Mot Hai"
+True
+
+3. What is nested conditionals? Write a piece of code that uses nested conditionals?
+ 
+The outer conditional contains two branches. The second branch contains another if statement,
+which has two branches of its own. Those two branches could contain conditional statements
+as well.
+
+	Write a piece of code that uses nested conditionals:
+
+from random import randint
+x = randint(0, 100)
+print(x)
+if x < 40:
+    print("nho")
+else :
+    if x > 60:
+        print("to")
+    else:
+        print("vua")
+
